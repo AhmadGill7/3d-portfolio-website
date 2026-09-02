@@ -1,190 +1,139 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Muhammad",
+        fullName: "Muhammad Ahmad",
+        title: "Full-Stack Engineer",
+        description: "Full-Stack Engineer (MERN/Next.js) with 3+ years shipping production web applications and DeFi protocols. Experienced in scalable REST/real-time systems, MongoDB, Redis, and end-to-end delivery from API to deployment. Bonus: mainnet-deployed smart contracts, AMM architecture, and cross-chain bridge engineering on EVM chains."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "ahmadgill7",
+        email: "ahmadgillwebdev@gmail.com",
+        location: "Faisalabad, Pakistan"
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I am a Full-Stack Engineer specializing in MERN and Next.js development with a strong focus on Web3 and blockchain technologies. With 3+ years of experience, I've built production-grade web applications, DeFi protocols, and cross-chain solutions. My expertise spans scalable REST/real-time systems, smart contract development, and end-to-end delivery from API design to mainnet deployment. I'm passionate about building efficient, user-centric applications that push the boundaries of web and blockchain technology."
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Software Engineer",
+            company: "NetixSol (Web3Geeks)",
+            period: "Apr 2025 - Apr 2026",
+            location: "Faisalabad, Pakistan",
+            description: "Engineered real-time event-driven architecture and deployed production-grade DeFi protocols with advanced smart contract optimization.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Engineered real-time event-driven architecture using Socket.IO and Redis Pub/Sub, sustaining under 100ms message latency across 1,000+ concurrent client sessions",
+                "Reduced gas costs by up to 80% across smart contract suite through storage slot packing and opcode-level refactoring in Solidity",
+                "Designed and deployed Next.js/Node.js/MongoDB applications supporting 1000+ concurrent users with average API response time under 100ms",
+                "Refactored legacy GraphQL indexing backend (Subsquid), enforcing strict separation of concerns and improving maintainability"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["Node.js", "Next.js", "Socket.IO", "Redis", "Solidity", "MongoDB", "GraphQL", "Subsquid"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
-            period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            position: "Associate Software Engineer",
+            company: "CodixSol",
+            period: "Jul 2024 - Apr 2025",
+            location: "Faisalabad, Pakistan",
+            description: "Improved frontend performance and optimized backend systems while mentoring junior developers.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Improved frontend load performance by 25% via code-splitting, lazy loading, and HTTP cache tuning",
+                "Cut average API response time by 15% by optimizing MongoDB aggregation pipelines",
+                "Reduced total codebase size by 30% through systematic modularization and shared component abstraction",
+                "Mentored 2 junior developers on MERN best practices, reducing production defects by 40%"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
+            technologies: ["React", "Node.js", "Express.js", "MongoDB", "JavaScript", "TypeScript"]
         },
         {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
+            position: "Software Engineer Intern",
+            company: "Gamica Cloud",
+            period: "Jan 2024 - Jul 2024",
+            location: "Faisalabad, Pakistan",
+            description: "Built and delivered 5+ full-stack MERN applications end-to-end with reusable component systems.",
             responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
+                "Built and delivered 5+ full-stack MERN applications end-to-end",
+                "Contributed to 15% reduction in internal project delivery time through reusable component systems",
+                "Developed workflow optimization strategies for team efficiency",
+                "Completed structured full-stack curriculum and received direct internship offer"
             ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["MongoDB", "Express.js", "React", "Node.js", "REST APIs"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/Drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali.",
-            link: "https://huggingface.co/red1-for-hek/drishti-ilm-x1"
+            title: "Kaspa Finance",
+            category: "DeFi / Blockchain",
+            technologies: "Solidity, Next.js, WAGMI, Viem, OpenZeppelin, Jest, Hardhat",
+            image: "/images/kaspa-finance.png",
+            description: "V3-Style Decentralized Exchange on Kasplex Blockchain (Layer 2). Architected a Uniswap V3-style AMM with tick-based concentrated liquidity — protocol reached $15000+ peak TVL and processed $14700+ in single-day swap volume on mainnet.",
+            link: "https://app.kaspafinance.io"
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/VoteChain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking.",
-            link: "https://github.com/red1-for-hek/smart-election-by-blockchain"
+            title: "Kaspa Bridge",
+            category: "Cross-Chain / Blockchain",
+            technologies: "Solidity, Hyperlane, Next.js, ethers.js, WAGMI, BSC, ETH, Base",
+            image: "/images/kaspa-bridge.png",
+            description: "First-ever cross-chain bridge for Kasplex Layer 2 using Hyperlane's interoperability protocol. Enables USDT and USDC transfers across BSC, Ethereum, Base, and Kasplex L2. Accumulated $2,000+ in bridge volume within first week of mainnet launch.",
+            link: "https://kaspabridge.com"
+        },
+        {
+            id: 3,
+            title: "Popit Game",
+            category: "Gaming / Real-Time",
+            technologies: "Socket.IO, Node.js, React, MongoDB, Web3.js, Smart Contracts",
+            image: "/images/devpopit.png",
+            description: "Real-time multiplayer betting game with server-authoritative game engine supporting 1,000+ concurrent users. Features escrow-based crypto betting system accepting ETH, BNB, and stablecoins with automated winner payout and on-chain settlement.",
+            link: "https://devpopitv2.netlify.app/"
         },
         {
             id: 4,
-            title: "Flood Spaces 2.0",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/FloodSpaces.png",
-            description: "Predicts flood risks across Bangladesh up to one month in advance and sends early alerts to help people prepare.",
-            link: "https://github.com/red1-for-hek/Flood-Spaces-2.0"
+            title: "DeFi Protocol Suite",
+            category: "Smart Contracts",
+            technologies: "Solidity, OpenZeppelin, Hardhat, Foundry, EVM",
+            image: "/images/placeholder.webp",
+            description: "Engineered full smart contract suite including factory, router, liquidity pools, and staking mechanisms. Applied advanced gas optimization strategies reducing per-transaction costs significantly through storage slot packing and calldata optimization.",
+            link: "#"
         },
         {
             id: 5,
-            title: "Phoenix 3.0",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/Phoenix3.0.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience.",
-            link: "https://github.com/red1-for-hek/phoenix3.0"
+            title: "Real-Time Event System",
+            category: "Backend Architecture",
+            technologies: "Socket.IO, Redis Pub/Sub, Node.js, Express.js",
+            image: "/images/placeholder.webp",
+            description: "Engineered real-time event-driven architecture sustaining under 100ms message latency across 1,000+ concurrent client sessions. Built with Redis Pub/Sub for distributed messaging and horizontal scalability.",
+            link: "#"
         },
         {
             id: 6,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/RedxChess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation.",
-            link: "/play"
-        },
-        {
-            id: 7,
-            title: "Prodesk",
-            category: "E-commerce",
-            technologies: "React, Node.js, MongoDB, Express, Stripe",
-            image: "/images/Prodesk.png",
-            description: "A complete e-commerce platform with secure checkout and smooth product browsing.",
-            link: "https://github.com/red1-for-hek/prodesk"
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes.",
-            link: ""
+            title: "GraphQL Indexing Backend",
+            category: "Backend / Web3",
+            technologies: "GraphQL, Subsquid, TypeScript, PostgreSQL",
+            image: "/images/placeholder.webp",
+            description: "Refactored legacy GraphQL indexing backend enforcing strict separation of concerns across resolver, service, and data-access layers. Improved maintainability and eliminated cross-layer coupling for long-term scalability.",
+            link: "#"
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "ahmadgillwebdev@gmail.com",
+        github: "https://github.com/ahmadgill7",
+        linkedin: "https://linkedin.com/in/ahmadgill",
+        twitter: "",
+        facebook: "",
+        instagram: "https://www.instagram.com/ahmadd.gill/"
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "BLOCKCHAIN DEVELOPER",
+            description: "DeFi protocols & smart contract engineering",
+            details: "Building production-grade DeFi protocols, AMMs, and cross-chain bridges. Expert in Solidity smart contract development with gas optimization, security best practices, and mainnet deployment experience. Specialized in EVM chains, Layer 2 solutions, and protocol architecture.",
+            tools: ["Solidity", "ethers.js", "WAGMI", "Viem", "Hardhat", "Foundry", "OpenZeppelin", "Uniswap V2/V3", "The Graph", "Subsquid"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "FULL-STACK ENGINEER",
+            description: "Scalable web applications & real-time systems",
+            details: "Building high-performance web applications with React, Next.js, and Node.js. Expert in real-time architectures using Socket.IO and Redis, RESTful and GraphQL APIs, and scalable database design. Experienced in deploying production systems handling 1000+ concurrent users.",
+            tools: ["React", "Next.js", "Node.js", "TypeScript", "Express.js", "NestJS", "MongoDB", "PostgreSQL", "Redis", "Docker", "Socket.IO", "GraphQL"]
         }
     }
 };

@@ -1,12 +1,21 @@
-# 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
+# 🚀 Muhammad Ahmad - 3D Portfolio Website
 
-[![3D portfolio preview (click to watch video)](./Screenshot_2026-04-08_22-10-00.png)](./video.mp4)
+[![3D portfolio preview](./Screenshot_2026-04-08_22-10-00.png)](./video.mp4)
 
-A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
+A modern, high-performance **3D developer portfolio website** showcasing my work as a Full-Stack Engineer specializing in **MERN/Next.js** and **Blockchain Development**. Built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
 
-If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
+> Live preview: https://muhammadahmad.dev/
 
-> Live preview: https://www.redoyanulhaque.me/
+---
+
+## 👨‍💻 About Me
+
+Full-Stack Engineer with 3+ years of experience shipping production web applications and DeFi protocols. Specialized in:
+
+- 🌐 **Full-Stack Development**: MERN Stack, Next.js, TypeScript, Real-time Systems
+- ⛓️ **Blockchain & DeFi**: Solidity, Smart Contracts, AMMs, Cross-chain Bridges
+- 🚀 **Scalable Architecture**: Handling 1000+ concurrent users with sub-100ms response times
+- 💡 **Gas Optimization**: Reducing transaction costs by up to 80% through advanced optimization
 
 ---
 
@@ -16,17 +25,18 @@ If you’re a developer looking for a **portfolio template** that feels premium,
 - Smooth animations with **GSAP**
 - Modern **React + TypeScript** codebase
 - Fast, responsive UI (desktop + mobile)
-- Designed for developers, engineers, programmers, and creators
+- Showcases real production projects with mainnet deployments
 
 ---
 
 ## 🧰 Tech Stack
 
-- **React**
-- **TypeScript**
-- **Three.js / WebGL**
-- **GSAP**
-- **HTML / CSS / JavaScript**
+- **Frontend**: React, Next.js, TypeScript, Tailwind CSS
+- **Backend**: Node.js, Express.js, NestJS, GraphQL
+- **Databases**: MongoDB, PostgreSQL, Redis
+- **Blockchain**: Solidity, ethers.js, WAGMI, Viem, Hardhat, Foundry
+- **Real-time**: Socket.IO, Redis Pub/Sub
+- **3D/Animation**: Three.js, GSAP, WebGL
 
 ---
 
@@ -35,8 +45,8 @@ If you’re a developer looking for a **portfolio template** that feels premium,
 ### 1) Clone
 
 ```bash
-git clone https://github.com/red1-for-hek/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/ahmadgill7/3d-portfolio-website.git
+cd 3d-portfolio-website
 ```
 
 ### 2) Install
@@ -59,41 +69,33 @@ npm run build
 
 ---
 
-## 🧩 Customize (Quick Guide)
+## 🎯 Featured Projects
 
-Typical things you’ll want to update:
-
-- **Your name + hero section text**
-- **Projects list**
-- **Social links** (GitHub, LinkedIn, email)
-- **SEO meta title/description**
+- **Kaspa Finance**: V3-Style DEX with $15k+ TVL and concentrated liquidity
+- **Kaspa Bridge**: First cross-chain bridge for Kasplex Layer 2 (BSC, ETH, Base)
+- **DevPopIt**: Real-time multiplayer betting game supporting 1000+ concurrent users
 
 ---
 
-## ⭐ Support
+## 📫 Connect With Me
 
-If you found this useful:
-
-- Please **star** the repository (it helps a lot)
-- Share it with a friend who needs a portfolio template
-- Sponsor via the **Sponsor** button on GitHub (if available in your region)
-
----
-
-## 🤝 Connect
-
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
+- **Email**: ahmadgillwebdev@gmail.com
+- **GitHub**: [github.com/ahmadgill7](https://github.com/ahmadgill7)
+- **LinkedIn**: [linkedin.com/in/ahmadgill](https://linkedin.com/in/ahmadgill)
+- **Portfolio**: [muhammadahmad.dev](https://muhammadahmad.dev)
 
 ---
 
-## 🏷️ Recommended GitHub Topics (add in repo settings)
+## 🏷️ GitHub Topics
 
-Add these topics to improve GitHub search visibility:
-
-`portfolio` `developer-portfolio` `portfolio-website` `portfolio-template` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `frontend` `vite`
+`portfolio` `developer-portfolio` `portfolio-website` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `blockchain` `web3` `defi` `mern-stack` `nextjs` `full-stack`
 
 ---
 
 ## 🪪 License
 
 This project is open source and available under the **MIT License**. See [LICENSE](LICENSE).
+
+---
+
+**Built with ❤️ by Muhammad Ahmad**
