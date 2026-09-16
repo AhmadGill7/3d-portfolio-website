@@ -102,7 +102,7 @@ const Contact = () => {
             >
               Twitter <MdArrowOutward />
             </a> */}
-            <a
+            {/* <a
               href={config.contact.facebook}
               target="_blank"
               rel="noopener noreferrer"
@@ -110,7 +110,7 @@ const Contact = () => {
               className="contact-social"
             >
               Facebook <MdArrowOutward />
-            </a>
+            </a> */}
             <a
               href={config.contact.instagram}
               target="_blank"

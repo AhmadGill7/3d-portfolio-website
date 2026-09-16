@@ -6,7 +6,7 @@ const About = () => {
     <div className="about-section" id="about">
       <div className="about-me">
         <h3 className="title">{config.about.title}</h3>
-        <p className="para">
+        <p className="para" style={{ whiteSpace: 'pre-line' }}>
           {config.about.description}
         </p>
       </div>

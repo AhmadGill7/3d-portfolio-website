@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import "./styles/WhatIDo.css";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { config } from "../config";
 
 const WhatIDo = () => {
@@ -9,14 +8,11 @@ const WhatIDo = () => {
     containerRef.current[index] = el;
   };
   useEffect(() => {
-    if (ScrollTrigger.isTouch) {
-      containerRef.current.forEach((container) => {
-        if (container) {
-          container.classList.remove("what-noTouch");
-          container.addEventListener("click", () => handleClick(container));
-        }
-      });
-    }
+    containerRef.current.forEach((container) => {
+      if (container) {
+        container.addEventListener("click", () => handleClick(container));
+      }
+    });
     return () => {
       containerRef.current.forEach((container) => {
         if (container) {
@@ -88,14 +84,14 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>{config.skills.develop.title}</h3>
-              <h4>{config.skills.develop.description}</h4>
+              <h3>{config.skills.fullstack.title}</h3>
+              <h4>{config.skills.fullstack.description}</h4>
               <p>
-                {config.skills.develop.details}
+                {config.skills.fullstack.details}
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                {config.skills.develop.tools.map((tool, index) => (
+                {config.skills.fullstack.tools.map((tool, index) => (
                   <div key={index} className="what-tags">{tool}</div>
                 ))}
               </div>
@@ -121,14 +117,14 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>{config.skills.design.title}</h3>
-              <h4>{config.skills.design.description}</h4>
+              <h3>{config.skills.ai.title}</h3>
+              <h4>{config.skills.ai.description}</h4>
               <p>
-                {config.skills.design.details}
+                {config.skills.ai.details}
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                {config.skills.design.tools.map((tool, index) => (
+                {config.skills.ai.tools.map((tool, index) => (
                   <div key={index} className="what-tags">{tool}</div>
                 ))}
               </div>

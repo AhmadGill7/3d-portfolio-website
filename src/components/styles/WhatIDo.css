@@ -46,8 +46,7 @@
 
 .what-content {
   width: 450px;
-  height: 33%;
-  min-height: 50%;
+  height: 50%;
   transition: 0.5s;
   /* border: 0.5px dashed rgba(255, 255, 255, 0.3); */
   position: relative;
@@ -57,14 +56,14 @@
 
 .what-noTouch:hover,
 .what-content-active {
-  min-height: 67%;
+  height: 100%;
   padding: 40px 50px;
 }
 
 .what-noTouch:hover~.what-content,
 .what-box-in:hover .what-noTouch:not(:hover),
 .what-content.what-sibling {
-  min-height: 33%;
+  height: 25%;
   padding: 10px 50px;
 }
 
@@ -124,6 +123,7 @@
   opacity: 0;
   animation: whatCorners 0.2s 1 forwards;
   animation-delay: 0.5s;
+  pointer-events: none;
 }
 
 @keyframes whatCorners {
@@ -199,6 +199,7 @@
   overflow: hidden;
   opacity: 0.8;
   animation: whatBorders 1.2s 1 forwards;
+  pointer-events: none;
 }
 
 .what-border1 svg {
@@ -220,6 +221,7 @@
   transition: 0.5s;
   opacity: 0.8;
   animation: whatBorders 1.2s 1 forwards;
+  pointer-events: none;
 }
 
 .what-border2 svg {
@@ -347,14 +349,14 @@
 
   .what-noTouch:hover,
   .what-content-active {
-    min-height: 67%;
+    min-height: 75%;
     padding: 50px;
   }
 
   .what-noTouch:hover~.what-content,
   .what-box-in:hover .what-noTouch:not(:hover),
   .what-content.what-sibling {
-    min-height: 33%;
+    min-height: 25%;
     padding: 10px 50px;
   }
 }
