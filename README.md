@@ -1,10 +1,10 @@
 # 🚀 Muhammad Ahmad - 3D Portfolio Website
 
-[![3D portfolio preview](./Screenshot_2026-04-08_22-10-00.png)](./video.mp4)
+[![3D portfolio preview](./ScreenShot3DPortfolio.png)](https://www.3d.muhammadahmad.dev/)
 
 A modern, high-performance **3D developer portfolio website** showcasing my work as a Full-Stack Engineer specializing in **MERN/Next.js** and **Blockchain Development**. Built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
 
-> Live preview: https://muhammadahmad.dev/
+> 🌐 **Live Demo**: [https://www.3d.muhammadahmad.dev/](https://www.3d.muhammadahmad.dev/)
 
 ---
 
@@ -82,7 +82,7 @@ npm run build
 - **Email**: ahmadgillwebdev@gmail.com
 - **GitHub**: [github.com/ahmadgill7](https://github.com/ahmadgill7)
 - **LinkedIn**: [linkedin.com/in/ahmadgill](https://linkedin.com/in/ahmadgill)
-- **Portfolio**: [muhammadahmad.dev](https://muhammadahmad.dev)
+- **Portfolio**: [3d.muhammadahmad.dev](https://www.3d.muhammadahmad.dev)
 
 ---
 
