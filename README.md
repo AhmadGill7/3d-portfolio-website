@@ -79,7 +79,7 @@ npm run build
 
 ## 📫 Connect With Me
 
-- **Email**: ahmadgillwebdev@gmail.com
+- **Email**: <ahmadgillwebdev@gmail.com>
 - **GitHub**: [github.com/ahmadgill7](https://github.com/ahmadgill7)
 - **LinkedIn**: [linkedin.com/in/ahmadgill](https://linkedin.com/in/ahmadgill)
 - **Portfolio**: [3d.muhammadahmad.dev](https://www.3d.muhammadahmad.dev)
@@ -97,5 +97,3 @@ npm run build
 This project is open source and available under the **MIT License**. See [LICENSE](LICENSE).
 
 ---
-
-**Built with ❤️ by Muhammad Ahmad**
